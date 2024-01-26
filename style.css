@@ -1,0 +1,30 @@
+body {
+    font-family: "arial", sans-serif;
+    text-align: center;
+}
+
+#slider {
+    position: relative;
+    width: 1200px;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#previousButton,
+#nextButton {
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+}
+
+#previousButton {
+    left: 0;
+}
+
+#nextButton {
+    right: 0;
+}
+
